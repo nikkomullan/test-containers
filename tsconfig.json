@@ -14,6 +14,6 @@
     "rootDir": "./",
     "typeRoots": ["./node_modules/@types", "./typings"]
   },
-  "include": ["./**/*.ts"],
+  "include": ["./**/*.ts", "jest.config.js"],
   "exclude": ["ts.out"]
 }
