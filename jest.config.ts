@@ -8,6 +8,7 @@ import type { Config } from 'jest'
 export default {
   coverageProvider: 'v8',
   testEnvironment: 'node',
+  passWithNoTests: true,
   projects: [
     {
       displayName: 'test',
