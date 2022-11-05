@@ -1,3 +1,4 @@
+import 'reflect-metadata'
 import express, { json } from 'express'
 import { errorHandler } from './middlewares/errorHandler'
 import { router as catsRouter } from './cats/routes'
